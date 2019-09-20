@@ -242,12 +242,17 @@ ul {
 	.content-box {
 		position: relative; top: 50px;
 		flex-direction: column-reverse;
+		width: 100%;
 	}
 
 	a {
 		margin: 10px 30px;
 	}
 
+	.logo {
+		border-bottom: 1px solid black;
+		
+	}
 	.logo-img {
 		margin-bottom: 20px;
 	}
@@ -293,8 +298,9 @@ ul {
 		flex-direction: column;
 		border-bottom: 1px solid black;
 		padding-bottom: 20px;
-		width: 100%;
+		width: 300%;
 		font-size: 20px;
+		position: relative; right: 160px;
 		
 	}
 
@@ -303,6 +309,7 @@ ul {
 		position: relative; top: -450px;
 		border-bottom: 1px solid black;
 		padding: 20px 155px;
+		width: 100%;
 	}
 
 	.content-1-box img {
